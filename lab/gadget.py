@@ -150,7 +150,7 @@ class Session:
         raise KeyError(key)
 
     def get_conf_optional_bool(self, key: str) -> bool | None:
-        # SQLConf.getConf(OptionalConfigEntry) — createOptional, unset is None.
+        # SQLConf.getConf(OptionalConfigEntry) - createOptional, unset is None.
         if key not in self.session_conf:
             return None
         return self.session_conf[key].lower() == "true"
