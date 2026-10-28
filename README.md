@@ -13,6 +13,10 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/abraxas/spark-connect-copy-local">spark-connect-copy-local</a>
 </p>
+<p align="center">
+  Write-up: <a href="https://abraxaslabs.tech/research/spark-connect-copy-local"><strong>https://abraxaslabs.tech/research/spark-connect-copy-local</strong></a>
+</p>
+
 
 # spark-connect-copy-local
 
